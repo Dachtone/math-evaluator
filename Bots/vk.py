@@ -32,7 +32,7 @@ vk_group_id = 000000000
 vk_group_name = 'groupname'
 vk_mention = '[club{}|@{}]'.format(vk_group_id, vk_group_name)
 
-vk_owner_id = 184536960
+vk_owner_id = 000000000
 
 vk_session = vk_api.VkApi(token = vk_token, auth_handler = retrieve_code)
 
