@@ -1,0 +1,9 @@
+.vs/
+theoretical/
+MathEvaluatorDLL/.vs/
+
+obj/*
+!obj/.keep
+
+MathEvaluatorDLL/obj/*
+!MathEvaluatorDLL/obj/.keep
