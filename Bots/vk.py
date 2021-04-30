@@ -72,7 +72,7 @@ for event in longpoll.listen():
             mention = False
 
 		# The owner of the bot can make it close itself
-        if obj.from_id == 000000000:
+        if obj.from_id == vk_owner_id:
             if msg == 'exit':
                 try:
                     vk.groups.disableOnline(group_id = vk_group_id)
